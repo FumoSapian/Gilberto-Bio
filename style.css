@@ -1,0 +1,33 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(19, 95, 73);
+    color: white;
+    border-color: yellow;
+    margin-top: auto;
+    margin-left: auto;
+}
+nav{
+    background-color: white;
+}
+aboutMe{
+    display: block;
+    background-color: green;
+}
+myProjects{
+    display: block;
+    background-color: black;
+}
+myInfo{
+    display: block;
+    background-color: coral;
+}
+.color-button {
+    padding: 10px 20px;
+    margin: 5px;
+    color: black;
+  }
+@media screen and (min-width:210px) {
+    body{
+        background-color: rgb(3, 74, 112);
+    }
+}
